@@ -30,5 +30,9 @@ gradlePlugin {
          id = "multi.module.android.library.compose"
          implementationClass = "AndroidLibraryComposeConventionPlugin"
       }
+      register("androidPresentationUI") {
+         id = "multi.module.android.presentation.ui"
+         implementationClass = "AndroidPresentationUIConventionPlugin"
+      }
    }
 }
