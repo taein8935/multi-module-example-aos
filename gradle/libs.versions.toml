@@ -63,3 +63,4 @@ jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrai
 multi-module-android-application = { id = "multi.module.android.application", version = "unspecified" }
 multi-module-android-application-compose = { id = "multi.module.android.application.compose", version = "unspecified" }
 multi-module-android-library = { id = "multi.module.android.library", version = "unspecified" }
+multi-module-android-library-compose = { id = "multi.module.android.library.compose", version = "unspecified" }
