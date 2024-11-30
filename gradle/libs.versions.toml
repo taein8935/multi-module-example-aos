@@ -48,6 +48,10 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
 
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+
 # Gradle
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 android-tools-common = { group = "com.android.tools", name = "common", version.ref = "androidTools" }
@@ -61,6 +65,8 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+room = { id = "androidx.room", version.ref = "room" }
 
 # Custom Convention Plugin
 multi-module-android-application = { id = "multi.module.android.application", version = "unspecified" }
@@ -68,6 +74,7 @@ multi-module-android-application-compose = { id = "multi.module.android.applicat
 multi-module-android-library = { id = "multi.module.android.library", version = "unspecified" }
 multi-module-android-library-compose = { id = "multi.module.android.library.compose", version = "unspecified" }
 multi-module-android-presentation-ui = { id = "multi.module.android.presentation.ui", version = "unspecified" }
+multi-module-android-room = { id = "multi.module.android.room", version = "unspecified" }
 
 [bundles]
 compose = [

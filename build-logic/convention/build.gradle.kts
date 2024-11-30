@@ -34,5 +34,9 @@ gradlePlugin {
          id = "multi.module.android.presentation.ui"
          implementationClass = "AndroidPresentationUIConventionPlugin"
       }
+      register("androidRoom") {
+         id = "multi.module.android.room"
+         implementationClass = "AndroidRoomConventionPlugin"
+      }
    }
 }
