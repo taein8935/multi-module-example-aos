@@ -75,6 +75,7 @@ multi-module-android-library = { id = "multi.module.android.library", version = 
 multi-module-android-library-compose = { id = "multi.module.android.library.compose", version = "unspecified" }
 multi-module-android-presentation-ui = { id = "multi.module.android.presentation.ui", version = "unspecified" }
 multi-module-android-room = { id = "multi.module.android.room", version = "unspecified" }
+multi-module-jvm-library = { id = "multi.module.jvm.library", version = "unspecified" }
 
 [bundles]
 compose = [
